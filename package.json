@@ -1,0 +1,31 @@
+{
+  "name": "krill-dev.github.io",
+  "version": "1.0.0",
+  "description": "Minimal Astro + React blog (About me only)",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-krill-dev:krill-dev/krill-dev.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "astro": "^5.17.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  },
+  "private": true
+}

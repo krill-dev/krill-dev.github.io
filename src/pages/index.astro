@@ -1,0 +1,29 @@
+---
+import AboutCard from '../components/AboutCard';
+import '../styles/global.css';
+
+const about = {
+  name: 'Kill-kr',
+  role: 'Developer • Invisible Infrastructure',
+  intro:
+    '작은 존재이지만 생태계를 떠받치는 크릴처럼, 거대한 구조 아래에서 필수적인 역할을 하는 개발자입니다. 보이지 않는 층을 설계하고 구축합니다.',
+  links: [
+    { label: 'GitHub', href: 'https://github.com/krill-dev' },
+    { label: 'Repository', href: 'https://github.com/krill-dev/krill-dev.github.io' },
+  ],
+};
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About me | krill-dev</title>
+    <meta name="description" content="Minimal About me page built with Astro + React." />
+  </head>
+  <body>
+    <main>
+      <AboutCard {...about} client:load />
+    </main>
+  </body>
+</html>
